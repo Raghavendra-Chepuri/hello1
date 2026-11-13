@@ -1,0 +1,8 @@
+node_modules/
+server/node_modules/
+server/config.json
+server/televault.db*
+server/thumbs/
+data/
+.env
+*.log

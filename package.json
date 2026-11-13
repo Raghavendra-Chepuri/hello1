@@ -1,0 +1,14 @@
+{
+  "name": "televault",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TeleVault — Unlimited cloud storage powered by Telegram Saved Messages",
+  "scripts": {
+    "install:server": "cd server && npm install --omit=dev",
+    "postinstall": "cd server && npm install --omit=dev",
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
